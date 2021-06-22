@@ -85,7 +85,7 @@ class Resto{
          echo 'hello';
         $result = $sth->fetchAll();
         
-        echo var_dump($result);
+       
         }catch(PDOException $e){
             $e->getMessage();
         }

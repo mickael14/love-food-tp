@@ -1,5 +1,5 @@
 <?php
-echo 'reserv1';
+
 class Reserv {
     private $_id;
     private $_nameReserv;
@@ -91,19 +91,19 @@ return $this->_idUser;
 
 
     function affichereserv($dsn, $user, $password, $logs){
-echo "tarace";
+
         try{
             $dbh= new PDO($dsn,$user,$password);
     $varget = intval($_SESSION['obj_user']['ID_user']);
         $sth = $dbh->prepare("SELECT resto.nameResto,  reservation.dateReservation, reservation.timeReservation FROM (user INNER JOIN reservation ON (user.ID_user = reservation.IDuser)) INNER JOIN resto ON (reservation.IDresto = resto.ID_resto) WHERE user.ID_user = $varget ORDER BY dateReservation ASC, timeReservation ASC;");
 
-        echo var_dump($logs);
+       
         $sth->execute();
         $count = $sth->rowCount();
         $sth->setFetchMode(PDO::FETCH_CLASS, new User());   
          
         $result = $sth->fetchAll();
-    echo 'test';
+
      
         }catch(PDOException $e){
             $e->getMessage();

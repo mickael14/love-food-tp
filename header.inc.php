@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Accueil</title>
 
@@ -19,7 +23,7 @@ if ($resultat==2) : ?>
 <body>
   <nav id=nav2>
     <div id="movenav3">
-    <img src="./logo.svg"style="width:150%;">
+    <img src="./logo.svg"style="width:150%;"class="logomove">
 </div>
 <div id="movenav4">
   <ul id="ul1">

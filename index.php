@@ -1,7 +1,7 @@
 <?php require_once 'header.inc.php' ?>
 
 <section id="section1">
-<div id="connexion">
+<div id="connexion"class="animate__animated animate__backInLeft">
 <h1> Connexion </h1>
 <img src="./barre.svg"> 
 <div id="co1">
@@ -18,13 +18,13 @@
 
   <button type="submit" class="bouttonplein" name="submit">Connexion</button>
 </form>
-<?php $status = session_status();  print $status; ?>
+<?php $status = session_status();   ?>
 <?= $_SESSION['test']; ?>
 
 
 </div>
 </div>
-<div id="co2">
+<div id="co2"class="animate__animated animate__backInRight">
 <img src="./background1.png">
 </div>
 </section>

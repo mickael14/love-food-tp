@@ -10,7 +10,7 @@ var_dump($_POST['submit']);
 if(isset($_POST['submit'])){
  
     $nameReserv = $_POST['nameReserv'];
-    echo 'nameok';
+ 
     $idResto = intval($_SESSION['ID_resto']);
     $idUser = intval($_SESSION['obj_user']['ID_user']);
     $dateReserv = $_POST['dateReserv'];
@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
     $nombreReserv = $_POST['nombreReserv'];
     $dateReserv = $_POST['dateReserv'];
     
-  echo 'submitgood ';
+
   
     
 

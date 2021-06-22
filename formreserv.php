@@ -14,29 +14,48 @@ $_SESSION['ID_resto'] = $_GET['id'];
     <title>Document</title>
 </head>
 <body>
-<form class="row g-3" method="POST" action="controllereservation.php" enctype="multipart/form-data"> 
-  <div class="col-md-4">
-    <label for="validationDefault01" class="form-label">Nom</label>
-    <input type="text" class="form-control" id="validationDefault01"  name="nameReserv" required>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-6 ps-5 mt-5 arf1 animate__animated animate__bounceInLeft">
+<div id="titrereserv">
+<h2 class="animate__animated animate__flipInX"> Reservation </h2>
+<img src="./barre.svg">
+</div>
+<form  method="POST" action="controllereservation.php" enctype="multipart/form-data"> 
+  <div class="">
+    <label for="validationDefault01" class="module">Nom</label>
+    <input type="text" class="champ" id="validationDefault01"  name="nameReserv" required>
   </div>
-  <div class="col-md-4">
-    <label for="validationDefault01" class="form-label">Date</label>
-    <input type="date" class="form-control" id="validationDefault02"  name="dateReserv" required>
+  <div class="">
+    <label for="validationDefault01" class="module">Date</label>
+    <input type="date" class="champ" id="validationDefault02"  name="dateReserv" required>
   </div>
-  <div class="col-md-4">
-    <label for="validationDefault02" class="form-label">Heure</label>
-    <input type="time" class="form-control" id="validationDefault03" name="heureReserv" required>
+  <div class="">
+    <label for="validationDefault02" class="module">Heure</label>
+    <input type="time" class="champ" id="validationDefault03" name="heureReserv" required>
   </div>
  
-  <div class="col-md-4">
-    <label for="validationDefault05" class="form-label">Nombre de personne</label>
-    <input type="number" class="form-control" id="validationDefault05" required name="nombreReserv">
+  <div class="">
+    <label for="validationDefault05" class="module">Nombre de personne</label>
+    <input type="number" class="champ" id="validationDefault05" required name="nombreReserv"><br>
+    <button type="submit" class="bouttonplein"name="submit">Réserver</button>
+        </form>
   </div>
       </div>
+      
+       
+       
+        <div class="col-1 animate__animated animate__bounceInRight">
+        <div id="imgreserv">
+        <img src="./imgreserva.png"style="width:708px;">
+        </div></div>
+        
+        <?php
 
-        <button type="button" class="btn btn-secondary aa" >Fermer</button>
-        <button type="submit" class="btn btn-primary"name="submit">Réserver</button>
-        </form>
+require_once 'footer.inc.php';
+
+?>
 </body>
 </html>
 

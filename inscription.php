@@ -7,7 +7,7 @@ require_once 'header.inc.php';
 <div id="inscription">
   <div id="moduleinscription">
  
-<div id="co3">
+<div id="co3"class="animate__animated animate__backInLeft">
 <h1> Inscription </h1>
 <img src="./barre.svg">
 <form class="row g-3" method="POST" action="controllerInscription.php" enctype="multipart/form-data"> 
@@ -48,7 +48,7 @@ require_once 'header.inc.php';
 </form>   
 </div>
 </div>
-<div id="co4">
+<div id="co4"class="animate__animated animate__backInRight">
 <img src="./inscription.png"id="imginscri">
 </div></div>
 </section>

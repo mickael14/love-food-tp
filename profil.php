@@ -13,8 +13,8 @@ $bookis =$booking->affichereserv($dsn, $user, $password, $logs);
 //print $status;
 ?>
 
-<h1 id="profilh1"> Profil </h1>
-<section id="navprofil">
+<h1 style="margin-top:3%;" id="profilh1"class="animate__animated animate__bounceInLeft animate__flipInX"> Profil </h1>
+<section id="navprofil"class="animate__animated animate__bounceInLeft">
 
 <div id="orange">
     <div id="imgprofil">
@@ -49,7 +49,7 @@ $bookis =$booking->affichereserv($dsn, $user, $password, $logs);
           
 
 
-<section id="contentprofil">
+<section id="contentprofil"class="animate__animated animate__bounceInRight">
 
 <div id="reservv"style="margin-bottom:5%;">
 <h2> Reservation </h2>
@@ -123,7 +123,7 @@ $bookis =$booking->affichereserv($dsn, $user, $password, $logs);
                     <h5 class="mb-0">Recent photos</h5><a href="#" class="btn btn-link text-muted">Show all</a>
                 </div>
                 <!-- Reservations -->
-                <
+                
             </div>
         </div>
     </div>

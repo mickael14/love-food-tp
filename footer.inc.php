@@ -4,9 +4,9 @@
 <div id="footer1">
 <h2> Liens utiles </h2>
 <ul id="ulfoot1">
-    <li> Liens 1 </li>
-    <li> Liens 2 </li>
-    <li> Liens 3 </li>
+    <li>Profil</li>
+    <li> Contact</li>
+    <li> Liste des restaurants</li>
 </ul>
 </div>
 <div id="footer2">
@@ -24,11 +24,11 @@
 </ul>
 </div>
 <div id="footer3">
-<h2> Liens utiles </h2>
+<h2> Mentions legales </h2>
 <ul id="ulfoot3">
-    <li> Liens 1 </li>
-    <li> Liens 2 </li>
-    <li> Liens 3 </li>
+    <li> Conditions générales d'utilisation </li>
+    <li> Conditions générales </li>
+    <li>Politique de confidentialité</li>
 </ul>
 </div>
     </footer>

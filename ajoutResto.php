@@ -5,26 +5,26 @@ require_once 'header.inc.php';
 
 <section id="addresto">
 
-  <img src="./ajoutresto.png"style="width:50%;">
+  <img src="./ajoutresto.png"style="width:50%;height:950px;"class="animate__animated animate__bounceInLeft">
 
 
  
     
-      <div id="moveajout">
-        <div id="titreajout">
+      <div id="moveajout"style="font-size:20px;"class="animate__animated animate__bounceInRight">
+        <div class="animate__animated animate__flipInX"id="titreajout">
           <h2> Ajouter un restaurant </h2>
           <img src="./barre2.svg"style="margin-bottom:10%;width:70%;"> </div>
 <form class="postt" method="POST" action="controllerResto.php">
 
-    <label for="validationDefault01" class="module">Name</label>
+    <label for="validationDefault01" class="module">Nom du restaurant</label>
     <input type="text" class="champ" id="validationDefault01"  name="name" required>
 
  <br>
-    <label for="validationDefault02" class="module">Address</label>
+    <label for="validationDefault02" class="module">Adresse</label>
     <input type="text" class="champ" id="validationDefault02" name="address" required>
 
     <br><br>
-    <label for="formFile" class="form-">Default </label>
+    <label for="formFile" class="form-">Votre image  </label>
     <input class="form-control" type="file" id="formFile"name="picture">
     <br><br>
     <label for="validationDefault04" class="champ-">Type</label>
